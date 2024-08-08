@@ -16,7 +16,7 @@ function Foreground() {
 
   return (
     <>
-      <div ref={ref} className="relative z-[3] p-[15px] h-screen w-full flex flex-wrap gap-3">
+      <div ref={ref} className="relative overflow-hidden z-[3] p-[15px] h-screen w-full flex flex-wrap gap-3">
         {data.map((item, index) => (
           <Card
             deleteCard={deleteCard}
